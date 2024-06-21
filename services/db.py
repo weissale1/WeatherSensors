@@ -1,9 +1,8 @@
-import os
-import psycopg2
-from flask import g
-from ..domain.WeatherData import WeatherData
-
-# currently unused
+""" currently unused
+#import os
+#import psycopg2
+#from flask import g
+#from ..domain.WeatherData import WeatherData
 
 def load_last_weather_data() -> WeatherData:
     db_conn = _get_db()
@@ -41,3 +40,4 @@ def _close_db():
 
     if db is not None:
         db.close()
+"""
