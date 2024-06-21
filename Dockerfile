@@ -7,7 +7,7 @@ COPY . /app
 
 RUN pip install --no-cache-dir -r requirements.txt
 
-EXPOSE 5001
+EXPOSE 5000
 
 # Run flask when the container launches
 CMD ["python3", "-m", "flask", "run", "--host=0.0.0.0"]
