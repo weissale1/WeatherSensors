@@ -1,3 +1,7 @@
-# WeatherStation2
+# WeatherSensors
 
-run with: sudo docker run --privileged -p 5000:5000 weissale1/weatherstation:tag
+Microservice for interaction with the DHT-22 sensor.
+Exposes a single REST-API. When called, the service reads the current temperature and
+humidity and returns them with a timestamp in JSON format.
+
+For more information see:  https://github.com/weissale1/WeatherStation
